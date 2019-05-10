@@ -1,7 +1,7 @@
 OrangeTVKodi 2v1
 ============
 
-Tato sada skriptu a doplňku pro Kodi slouží pro vygenerování playlistů tak, aby služba OrangeTV Slovensko šla použít v Kodi, nebo v TVHeadendu.
+Tato sada skriptu a doplňku pro Kodi slouží pro vygenerování playlistů tak, aby služba OrangeTV Slovensko šla použít v Kodi, nebo v TVHeadendu. Jedná sa o úpravu pôvodného projektu: [O2TVKodi](https://github.com/Pavuucek/O2TVKodi)  
 Obě části jsou víceméně funkčně stejné a slouží k témuž účelu. Kterou část použijete záleží na vás.
 
 Část 1 - Doplněk pro Kodi
