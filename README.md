@@ -36,7 +36,7 @@ Více informací naleznete na fóru [xbmc-kodi.cz](https://www.xbmc-kodi.cz/pris
 -------------
 Nikdo není dokonalý a potíže se se mohou objevit kdykoliv.
 V současné době je známo několik problémů na které byste mohli narazit:
-- Nastavení skriptu verze 0.1 není kompatibilní s předchozími. Nachází se v jiném souboru, takže musíte zapsat veškerá nastavení znovu.
+- Nastavení skriptu verze 0.0.1 není kompatibilní s předchozími. Nachází se v jiném souboru, takže musíte zapsat veškerá nastavení znovu.
 - V případě potíží při instalaci nové verze doplňku pro Kodi pomáhá smazat adresář s nastaveními. Na windows se nachází např. v `C:\Users\jméno_uživatele\AppData\Roaming\Kodi\userdata\addon_data\service.playlist.orangetv\`.
 - Potíže s přihlášením zatím nejsou zcela vyřešeny a mohou záviset na problémech na straně Orange. 
 
