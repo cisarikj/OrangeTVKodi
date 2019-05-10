@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<strings>
+	<string id="30000">Prihlásenie</string>
+	<string id="30001">Užívateľské meno</string>
+	<string id="30002">Heslo</string>
+	<string id="30003">Neplatné prihlásenie</string>
+	<string id="30004">Názov zariadenia</string>
+	<string id="30005">ID zariadenie</string>
+	<string id="30006">Príliš veľa zariadení pre tento účet</string>
+	<string id="30007">Kanál momentálne nevysiela</string>
+	<string id="30008">Nezaplatená služba</string>
+	<string id="30009">OK</string>
+
+	<string id="30025">Odosielať chyby</string>
+
+	<string id="30040">Sťahovanie playlistu práve začalo</string>
+	<string id="30041">%d/%d kanálov stiahnutých/preskočených</string>
+	<string id="30042">Chyba aplikácie, skontrolujte log</string>
+	<string id="30043">STOP aplikácie</string>
+	<string id="30044">Bude spustené stiahnutie playlistu pre OrangeTV</string>
+	<string id="30045">Naozaj chcete pokračovať?</string>
+	<string id="30046">V tejto verzii nie je povolené ručné spustenie</string>
+	<string id="30047">Nasledujúce stiahnutie %s</string>
+	<string id="30048">Neúplné nastavenie, playlist sa nebude sťahovať!</string>
+	<string id="30049">ŠTART aplikácie</string>
+
+	<string id="30100">Spúšťanie</string>
+	<string id="30101">Povoliť ručné sťahovanie</string>
+	<string id="30102">Spustiť sťahovanie</string>
+	<string id="30103">Povoliť automatické sťahovanie</string>
+	<string id="30104">Základný čas spustenia [hodina dňa]</string>
+	<string id="30105">Perióda spustenia [hodín]</string>
+	<string id="30106">Spustenie po štarte</string>
+	<string id="30107">Oneskorenie spustenia po štarte KODI [sek]</string>
+	<string id="30108">Limit pre vynechanie nasledujúceho spustenia [%]</string>
+	<string id="30109">Zastavenie služby</string>
+	<string id="30110">Spustenie služby</string>
+	<string id="30111">Umiestnenie vyg. playlistov</string>
+
+
+	<string id="30200">Playlist</string>
+	<string id="30201">Typ playlistu</string>
+	<string id="30202">ŽIADNY</string>
+	<string id="30203">IPTV Simple Client</string>
+	<string id="30204">TVHeadend</string>
+	<string id="30205">TVHeadend@</string>
+	<string id="30210">EPG názov kanála [tvg_name]</string>
+	<string id="30211">ŽIADNE</string>
+	<string id="30212">Preberá sa z názvu kanála</string>
+	<string id="30213">Názov kanála [m3u_name]</string>
+	<string id="30214">ŽIADNE</string>
+	<string id="30215">Preberá sa zo zdroja</string>
+	<string id="30220">Číslo kanála [tvh_chnum]</string>
+	<string id="30221">ŽIADNE</string>
+	<string id="30222">Preberá sa zo zdroja (poradie)</string>
+	<string id="30223">Vzostupne od 1</string>
+	<string id="30224">Vzostupne od začiatočného čísla</string>
+	<string id="30230">Začiatočné číslo</string>
+	<string id="30240">Skupina kanálov [group-title]</string>
+	<string id="30241">ŽIADNA</string>
+	<string id="30243">Zadaný názov skupiny</string>
+	<string id="30250">Názov skupiny</string>
+	<string id="30260">Logo kanála [tvg-logo]</string>
+	<string id="30261">ŽIADNE</string>
+	<string id="30262">Preberá sa zo zdroja</string>
+	<string id="30263">Lokálne umiestnenie</string>
+	<string id="30264">Internetové umiestnenie</string>
+	<string id="30265">Logá od @marhycz na Github</string>
+	<string id="30270">Cesta</string>
+	<string id="30271">URL</string>
+	<string id="30272">Kvalita</string>
+	<string id="30273">640x640</string>
+	<string id="30275">1024x1024</string>
+	<string id="30280">Konvencia názvu súboru</string>
+	<string id="30281">nazovkanala.png</string>
+	<string id="30282">nazovkanala.jpg</string>
+	<string id="30283">Názov Kanála.png</string>
+	<string id="30284">Názov Kanála.jpg</string>
+	<string id="30290">EPG id kanála [tvg-id]</string>
+	<string id="30291">ŽIADNE</string>
+	<string id="30292">Preberá sa z názvu kanála</string>
+	<string id="30300">Grabovanie EPG kanála [tvh-epg]</string>
+	<string id="30301">ŽIADNE</string>
+	<string id="30302">Vypnúť</string>
+	<string id="30303">Zapnúť</string>
+	<string id="30310">Pre streamer použiť vlastný skript</string>
+	<string id="30311">Názov súboru skriptu</string>
+	<string id="30312">Plná cesta k FFMPEGu</string>
+
+	<string id="30400">Ďalšie nastavenia</string>
+	<string id="30401">Kvalita streamov</string>
+	<string id="30402">Nízka (SD)</string>
+	<string id="30403">Vysoká (HD)</string>
+	<string id="30410">Vytvoriť zoznam preskočených kanálov</string>
+
+	<string id="30500">Nastala chyba počas behu aplikácie.</string>
+	<string id="30501">Povoliť odosielanie chýb doplnku?</string>
+	<string id="30502">Chyba bola odoslaná na opravu</string>
+	<string id="30503">Report o chybe sa nepodarilo odoslať</string>
+
+	<string id="30700">Štatistika</string>
+	<string id="30701">Čas štartu</string>
+	<string id="30702">Čas posledného stiahnutia</string>
+	<string id="30703">Počet stiahnutých kanálov</string>
+	<string id="30704">Počet preskočených kanálov</string>
+	<string id="30705">Čas nasledujúceho stiahnutia</string>
+
+	<string id="30800">Neúplné nastavenie parametrov služby</string>
+	<string id="30801">Nastavte parametre pre: %s %s %s</string>
+	<string id="30802">Prihlásenie</string>
+	<string id="30803">Spúšťanie</string>
+	<string id="30804">Playlist</string>
+	<string id="30805">Spustiť nastavenie parametrov služby?</string>
+
+</strings>

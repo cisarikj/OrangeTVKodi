@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+	<category label="30000">
+		<setting label="30001" type="text" id="username" default=""/>
+		<setting label="30002" type="text" id="password" option="hidden" enable="!eq(-1,1)" default=""/>
+		<setting label="30005" id="device_id" type="text" enable="false" />
+	</category>
+	<category label="30100">
+        <setting label="30103" id="start_automatic" type="bool" default="false"/>
+        <setting label="30101" id="start_manual" type="bool" default="false" enable="false" visible="false"/>
+	    <setting label="30104" id="start_hour" type="enum" values="$HOURS" default="06:00"/>
+	    <setting label="30105" id="start_period" type="enum" values="01:00|02:00|03:00|04:00|06:00|08:00|12:00|24:00" default="06:00"/>
+        <setting label="30106" id="start_enable" type="bool" default="false" />
+        <setting label="30107" id="start_delay" type="slider" range="0,10,120" option="int" default="10"/>
+		<setting type="sep" visible="false"/>
+        <setting label="30109" type="action" action="StopScript(service.playlist.orangetv)" visible="false"/>
+        <setting label="30110" type="action" action="RunScript(service.playlist.orangetv)" visible="false"/>
+		<setting label="30111 type="text" id="playlist_path" default=""/>
+
+	</category>
+	<category label="30200">
+	    <setting label="30201" id="playlist_type" type="enum" lvalues="30202|30203|30204|30205" sort="no" default="30202"/>
+		<setting type="sep"/>
+	    <setting label="30401" id="stream_quality" type="enum" lvalues="30402|30403" sort="no" default="30402" visible="!eq(-2,0)"/>
+	    <setting label="30210" id="channel_epgname" type="enum" lvalues="30211|30212" default="0" visible="!eq(-3,0)+eq(-3,1)"/>
+	    <setting label="30290" id="channel_epgid" type="enum" lvalues="30291|30292" default="30291" visible="!eq(-4,0)"/>
+	    <setting label="30240" id="channel_group" type="enum" lvalues="30241|30242|30243" default="30241" visible="!eq(-5,0)"/>
+	    <setting label="30250" id="channel_groupname" type="text" visible="!eq(-6,0)+eq(-1,2)" subsetting="true"/>
+	    <setting label="30260" id="channel_logo" type="enum" lvalues="30261|30262|30263|30264|30265" default="30261" visible="!eq(-7,0)"/>
+	    <setting label="30270" id="channel_logopath" type="folder" source="auto" visible="!eq(-8,0)+eq(-1,2)" subsetting="true"/>
+	    <setting label="30271" id="channel_logourl" type="text" visible="!eq(-9,0)+eq(-2,3)" subsetting="true"/>
+	    <setting label="30272" id="channel_logogithub" type="enum" lvalues="30273|30275"  default="30273" visible="!eq(-10,0)+eq(-3,4)" subsetting="true"/>
+        <setting label="30280" id="channel_logoname" type="enum" lvalues="30281|30282|30283|30284" default="30281" visible="!eq(-11,0)+!eq(-4,0)+!eq(-4,1)-+!eq(-4,4)" subsetting="true"/>
+		<setting type="sep" visible="eq(-12,3)"/>
+	    <setting label="30310" id="myscript" type= "bool" default="false" visible="eq(-13,3)"/>
+	    <setting label="30311" id="myscript_name" type= "text" default="myscript.sh" visible="eq(-14,3)+eq(-1,true)" subsetting="true"/>
+		<setting label="30312" id="ffmpeg_path" type="text" default="ffmpeg" visible="eq(-15,3)"/>
+	</category>
+	<category label="30700">
+		<setting label="30701" id="last_start" type="text" enable="false"/>
+		<setting label="30702" id="last_time" type="text" enable="false"/>
+		<setting label="30703" id="last_downloaded" type="text" enable="false"/>
+		<setting label="30704" id="last_skipped" type="text" enable="false"/>
+		<setting label="30705" id="next_time" type="text" enable="false"/>
+	</category>
+</settings>
