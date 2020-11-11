@@ -13,7 +13,7 @@ __email__ = "stepanort@gmail.com"
 
 _COMMON_HEADERS = {"X-NanguTv-App-Version": "Android#1.2.9",
                    "X-NanguTv-Device-Name": "Nexus 7",
-                   "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 5.1.1; Nexus 7 Build/LMY47V)",
+                   "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 5.1.1; Nexus 6 Build/LMY47A)",
                    "Accept-Encoding": "gzip",
                    "Connection": "Keep-Alive"}
 

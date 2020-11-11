@@ -15,7 +15,7 @@
 		<setting type="sep" visible="false"/>
         <setting label="30109" type="action" action="StopScript(service.playlist.orangetv)" visible="false"/>
         <setting label="30110" type="action" action="RunScript(service.playlist.orangetv)" visible="false"/>
-		<setting label="30111 type="text" id="playlist_path" default=""/>
+		<setting label="30111" type="text" id="playlist_path" default=""/>
 
 	</category>
 	<category label="30200">
