@@ -18,6 +18,7 @@ import xbmcaddon
 import xbmcvfs
 import urllib3
 import traceback
+from subprocess import call
 import common as c
 from o2tvgo import AuthenticationError
 from o2tvgo import ChannelIsNotBroadcastingError
@@ -70,6 +71,7 @@ _playlist_path_ = ""
 _playlist_src_ = ""
 _playlist_dst_ = ""
 _playlist_streamer_ = ""
+_postdown_script_ = ""
 _settings_file_ = ""
 INFO = 'INFO'
 WARNING = 'WARNING'
@@ -561,6 +563,10 @@ if __name__ == '__main__':
                 next_time, next_time_sec = next_time_()
                 if next_time != _next_time_:
                     set_setting('next_time', c.to_string(next_time))
+                rc = call(_postdown_script_);
+                if not xbmc.getCondVisibility('Pvr.IsPlayingTV') and _playlist_type_ == 1:
+                    xbmc.executeJSONRPC('{"jsonrpc":"2.0","id":1,"method":"Addons.SetAddonEnabled","params":{"addonid":"pvr.iptvsimple","enabled":false}}')
+                    xbmc.executeJSONRPC('{"jsonrpc":"2.0","id":1,"method":"Addons.SetAddonEnabled","params":{"addonid":"pvr.iptvsimple","enabled":true}}')
                 info_dialog(_lang_(30047) % next_time)
 
             except Exception as ex:
