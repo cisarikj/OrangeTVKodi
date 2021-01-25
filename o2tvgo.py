@@ -207,7 +207,7 @@ class O2TVGO:
                       "isp": "5",
 					  "imageSize": "LARGE",
                       "language": "slo",
-                      "deviceType": "PC",
+                      "deviceType": self.quality,
                       "liveTvStreamingProtocol": "HLS",
                       "offer": self.offer}  # doplněn parametr kvality
             req = requests.get('http://app01.gtm.orange.sk/sws/server/tv/channels.json',
