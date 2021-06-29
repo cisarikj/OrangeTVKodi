@@ -11,9 +11,9 @@ __license__ = "MIT"
 __version__ = "1.1.8"
 __email__ = "stepanort@gmail.com"
 
-_COMMON_HEADERS = {"X-NanguTv-App-Version": "Android#1.2.9",
+_COMMON_HEADERS = {"X-NanguTv-App-Version": "Android#7.6.3",
                    "X-NanguTv-Device-Name": "Nexus 7",
-                   "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 5.1.1; Nexus 7 Build/LMY47V)",
+                   "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 5.1.1; Nexus 6 Build/LMY47A)",
                    "Accept-Encoding": "gzip",
                    "Connection": "Keep-Alive"}
 
@@ -207,7 +207,7 @@ class O2TVGO:
                       "isp": "5",
 					  "imageSize": "LARGE",
                       "language": "slo",
-                      "deviceType": "PC",
+                      "deviceType": self.quality,
                       "liveTvStreamingProtocol": "HLS",
                       "offer": self.offer}  # doplněn parametr kvality
             req = requests.get('http://app01.gtm.orange.sk/sws/server/tv/channels.json',
